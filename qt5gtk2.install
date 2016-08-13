@@ -10,5 +10,8 @@ Now restart X11 server to take the changes effect.
 
 Attention!
 Environment variable QT_STYLE_OVERRIDE should be removed before usage.
-*************************************************************";
+*************************************************************"
+}
+post_upgrade() {
+	post_install
 }
