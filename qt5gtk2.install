@@ -1,14 +1,5 @@
 post_install() {
 echo "*************************************************************
-Add line 'export QT_QPA_PLATFORMTHEME=qt5gtk2' to ~/.profile and re-login.
-Alternatively, create the file /etc/X11/xinit/xinitrc.d/100-qt5gtk2.sh with
-the following line:
-
-export QT_QPA_PLATFORMTHEME=qt5gtk2
-
-Then chmod +x /etc/X11/xinit/xinitrc.d/100-qt5gtk2.sh
-Now restart X11 server to take the changes effect.
-
 Attention!
 Environment variable QT_STYLE_OVERRIDE should be removed before usage.
 *************************************************************"
