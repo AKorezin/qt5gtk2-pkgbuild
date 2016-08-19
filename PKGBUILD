@@ -1,7 +1,7 @@
 pkgname=qt5gtk2-git
 _pkgname=qt5gtk2
 pkgver=r28.6f6f63d
-pkgrel=1
+pkgrel=2
 pkgdesc='GTK+2.0 integration plugins for Qt5'
 url='https://bitbucket.org/trialuser02/qt5gtk2'
 arch=('i686' 'x86_64')
@@ -9,7 +9,7 @@ license=('GPL2')
 
 # make dependancies
 depends=('qt5-base>=5.7')
-
+conflicts=('qt5gtk2')
 # source download from git repo & prepare
 source=(git+https://bitbucket.org/trialuser02/qt5gtk2.git
         qt5gtk2.sh)
